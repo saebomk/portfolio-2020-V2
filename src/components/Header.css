@@ -1,0 +1,60 @@
+.Header {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    font-size: small;
+    padding: 24px 0; /* top & bottom, left & right */
+    z-index: 100;    /* will always on the top */
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.HeaderScrolled {
+    background: rgba(32, 32, 32, 0.5);
+    padding: 24px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderTitle {
+    grid-area: HeaderTitle;
+}
+
+.Resume {
+    grid-area: Resume;
+}
+
+.PastWork {
+    grid-area: PastWork;
+}
+
+.HeaderGroup {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 32px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 20% 50% 1fr 1fr; /* will repeat even distribution (auto) 4 times */
+    grid-template-areas: "HeaderTitle . Resume PastWork";
+    justify-items: center;
+    align-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 500;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.Header a:hover {
+    color:rgba(255, 255, 255, 0.5);
+}
+
+/* media tag should be created in the bottom of the link*/ 
+@media (max-width: 640px) {
+    .Header {
+        padding: 24px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+}
