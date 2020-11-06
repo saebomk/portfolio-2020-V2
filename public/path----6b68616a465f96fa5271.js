@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{109:function(o,e){o.exports={data:{site:{siteMetadata:{title:"Saebom April Kwon",description:"UX Portfolio of Saebom April Kwon",keywords:"UX Designer, Saebom Kwon, Saebom April Kwon"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----6b68616a465f96fa5271.js.map
