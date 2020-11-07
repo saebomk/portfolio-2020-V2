@@ -2,9 +2,9 @@ import React, { useRef } from 'react'
 import Link from 'gatsby-link'
 import ProjectHero from '../components/ProjectHero';
 import Section from '../components/Section';
-import { FaInstagram } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaRegEnvelope } from 'react-icons/fa';
+// import { FaInstagram } from 'react-icons/fa';
+// import { FaLinkedin } from 'react-icons/fa';
+// import { FaRegEnvelope } from 'react-icons/fa';
 
 
 const PatternLibrary = () => (
@@ -65,9 +65,9 @@ const PatternLibrary = () => (
       <div className="FooterGroup">
 
         <div className="copyright"><p>Designed & Developed by<br /> Saebom April Kwon with React</p></div>
-        <div className="facebook"><a href="https://kr.linkedin.com/in/saebomkwon" aria-label="Go to Linkedin Profile"><FaLinkedin color="black" fontSize="24px" /></a></div>
-        <div className="instagram"><a href="https://www.instagram.com/aprilsbkwon/" aria-label="Go to Instagram Profile"><FaInstagram color="black" fontSize="24px" /></a></div>
-        <div className="email"><a mailto="saebom@umich.edu" aria-label="Send email"><FaRegEnvelope color="black" fontSize="24px" /></a></div>
+        <div className="facebook"><a href="https://kr.linkedin.com/in/saebomkwon" aria-label="Go to Linkedin Profile">LinkedIn</a></div>
+        <div className="instagram"><a href="https://www.instagram.com/aprilsbkwon/" aria-label="Go to Instagram Profile">Instagram</a></div>
+        <div className="email"><a mailto="saebom@umich.edu" aria-label="Send email">Email</a></div>
       </div>
     </div>
   </div>
