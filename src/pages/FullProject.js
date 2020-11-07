@@ -81,11 +81,7 @@ const FullProject = () => (
       logo=""
       title="Outcome"
       subtitle="Completing Design Cycle in Pandemic"
-      text="We got overall positive feedback from 16+ usability testings with sourcing managers and sourcing specialists. This project has been commented as 'an exemplary project' that completes the full design cycle within a broader product design team. 
-
-            I could also collaborate with the SAP Design team to share the use cases to make alignment with Fiori 3 components for consistency. We delivered 2 versions of mockups (short-term and long-term) that can align with the design system.
-            
-            Personally, I worked remotely for 90% of the project due to the pandemic, and this was a great opportunity to learn how to effectively collaborate with the team. (Thankfully, we were able to work on Figma and that immensely helped to feel the presence) Visualizing, and preparing visual aid for meetings helped me the most."
+      text="We got overall positive feedback from 16+ usability testings with sourcing managers and sourcing specialists. This project has been commented as 'an exemplary project' that completes the full design cycle within a broader product design team. • I could also collaborate with the SAP Design team to share the use cases to make alignment with Fiori 3 components for consistency. We delivered 2 versions of mockups (short-term and long-term) that can align with the design system. • Personally, I worked remotely for 90% of the project due to the pandemic, and this was a great opportunity to learn how to effectively collaborate with the team. (Thankfully, we were able to work on Figma and that immensely helped to feel the presence) Visualizing, and preparing visual aid for meetings helped me the most."
     />
 
     <div className="Footer">

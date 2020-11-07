@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 import ProjectHero from '../components/ProjectHero';
 import Section from '../components/Section';
-// import { FaInstagram } from 'react-icons/fa';
-// import { FaLinkedin } from 'react-icons/fa';
-// import { FaRegEnvelope } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaRegEnvelope } from 'react-icons/fa';
 
 
 const ConditionBuilder = () => (

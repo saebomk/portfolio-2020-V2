@@ -2,9 +2,9 @@ import React, { useRef } from 'react'
 import Link from 'gatsby-link'
 import ProjectHero from '../components/ProjectHero';
 import Section from '../components/Section';
-import { FaInstagram } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaRegEnvelope } from 'react-icons/fa';
+// import { FaInstagram } from 'react-icons/fa';
+// import { FaLinkedin } from 'react-icons/fa';
+// import { FaRegEnvelope } from 'react-icons/fa';
 
 
 const SupplierInvitationUX = () => (
@@ -43,20 +43,20 @@ const SupplierInvitationUX = () => (
     <Section
       logo="../../SupplierInvitationUX_2.gif"
       title="Design"
-      subtitle="For simple events"
+      subtitle="For Simple Events"
       text="Users can see recommendations in zero state table"
     />
 
     <Section
       logo="../../SupplierInvitationUX_3.gif"
       title="Design"
-      subtitle="For complex events"
+      subtitle="For Complex Events"
       text="Users can see recommendations based on items and the reasons based on previous engagement history and supplier statuses"
     />
 
     <Section
       logo="../../SupplierInvitationUX_4.png"
-      title="For search"
+      title="For Search"
       subtitle=""
       text="If user wants to find a specific supplier with the organization or contact informatioon, they can go to Advanced search chooser with supplier filters"
     />
@@ -70,7 +70,7 @@ const SupplierInvitationUX = () => (
 
 <Section
       logo="../../SupplierInvitationUX_6.png"
-      title="Component building"
+      title="Component Building"
       subtitle="Make the Common Component Reusable"
       text="Supplier search & selection UX is not only the case for Sourcing but also a very common pattern for other buying apps. I shared the use cases and designs with the Supplier Management app, Contracts, and Buying app designers to come up with 3 design patterns that designers can use across the apps."
     />
@@ -79,7 +79,7 @@ const SupplierInvitationUX = () => (
       logo=""
       title="Lessons Learned"
       subtitle=""
-      text="The pattern library's impact can be limited without understanding the full use cases, spend good time to research on components and their variations. It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases."
+      text="For enterprise software UX, always consider the consequences of my designs and think big, there always could be use cases I haven't discovered. Consistency across apps in the same product gives users comfort and low memory burden when they see a new interaction. This was my first time to collaborate with an intern, I was impressed by her moderating and improvisation skills in the user sessions!"
     />
 
     <div className="Footer">

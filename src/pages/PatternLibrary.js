@@ -58,7 +58,7 @@ const PatternLibrary = () => (
       logo=""
       title="Lessons Learned"
       subtitle=""
-      text="The pattern library's impact can be limited without understanding the full use cases, spend good time to research on components and their variations. It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases."
+      text="The pattern library's impact can be limited without understanding the full use cases, spend good time to research on components and their variations. • It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. • While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases."
     />
 
     <div className="Footer">

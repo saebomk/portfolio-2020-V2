@@ -34,7 +34,7 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           <Link className="HeaderTitle" to="/">Saebom April Kwon</Link>
           <a className="Resume" href="https://drive.google.com/file/d/1iey-Ias6Ydf37Mll6UVdUpOz0I8sJ5xB/view?usp=sharing">Resume</a>
-          <a className="PastWork" href="https://www.notion.so/saebomkwon/Saebom-April-Kwon-6a914788d7874486a2046793c4243539">Not work</a>
+          <a className="PastWork" href="https://www.notion.so/saebomkwon/Saebom-April-Kwon-6a914788d7874486a2046793c4243539">Past Work</a>
         </div>
       </div>
     )
