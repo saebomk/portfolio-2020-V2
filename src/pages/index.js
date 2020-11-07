@@ -22,7 +22,7 @@ const IndexPage = () => (
     <div>
         <List
             link="/FullProject/"
-            title="Strategic Sourcing Project"
+            title="Redesigning Strategic Sourcing Project"
             subtitle="UX Research / UX Design"
             logo="../../Full_Project_0.png"
         />

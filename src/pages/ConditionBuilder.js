@@ -12,7 +12,7 @@ const ConditionBuilder = () => (
       
     <ProjectHero
       logo="../../ConditionBuilder_0_1.png"
-      title="Condition Builder UI"
+      title="Visibility Condition Builder UI"
       date="1 month"
       role="Lead UX Designer in the team of 1 Product Manager, 5 Engineers, 1 UX Designer, 1 UX Engineer"
       impact="Delivered full interaction UX/UI spec for condition manager and condition builder with enhancement in required clicks for creating complex expressions"
