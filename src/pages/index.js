@@ -30,7 +30,7 @@ const IndexPage = () => (
     <div>
         <List
             link="/PatternLibrary/"
-            title="How I created Team Design Pattern Library"
+            title="How I Created Team Design Pattern Library"
             subtitle="Design System / Interaction Design"
             logo="../../PatternLibrary_0.png"
         />
