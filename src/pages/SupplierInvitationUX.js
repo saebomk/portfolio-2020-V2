@@ -79,7 +79,7 @@ const SupplierInvitationUX = () => (
       logo=""
       title="Lessons Learned"
       subtitle=""
-      text="For enterprise software UX, always consider the consequences of my designs and think big, there always could be use cases I haven't discovered. Consistency across apps in the same product gives users comfort and low memory burden when they see a new interaction. This was my first time to collaborate with an intern, I was impressed by her moderating and improvisation skills in the user sessions!"
+      text="For enterprise software UX, always consider the consequences of my designs and think big, there always could be use cases I haven't discovered. • Consistency across apps in the same product gives users comfort and low memory burden when they see a new interaction. • This was my first time to collaborate with an intern, I was impressed by her moderating and improvisation skills in the user sessions!"
     />
 
     <div className="Footer">
