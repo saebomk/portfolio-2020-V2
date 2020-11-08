@@ -1,14 +1,12 @@
-import React, { useRef } from 'react'
-import Link from 'gatsby-link'
-import ProjectHero from '../components/ProjectHero';
-import Section from '../components/Section';
+import React, { useRef } from "react";
+import Link from "gatsby-link";
+import ProjectHero from "../components/ProjectHero";
+import Section from "../components/Section";
 // import { FaInstagram } from 'react-icons/fa';
 // import { FaLinkedin } from 'react-icons/fa';
 // import { FaRegEnvelope } from 'react-icons/fa';
 
-
 const FullProject = () => (
-
   <div className="ProjectSlide">
     <ProjectHero
       logo="../../Full_Project_0_1.png"
@@ -18,7 +16,11 @@ const FullProject = () => (
       impact="Reduced 20+ page transition, 40+ clickstreams for the feature that can cover 80% of app use cases, Increased user ratings on simplicity, learnability, and insightfulness, Shared with the broader product team for future feature roadmap"
     />
 
-      <p className="Warning">The project is still under NDA. The designs presented below are part of mid-fi prototypes that are used for user testing and could be different from the final design.</p>
+    <p className="Warning">
+      The project is still under NDA. The designs presented below are part of
+      mid-fi prototypes that are used for user testing and could be different
+      from the final design.
+    </p>
 
     <Section
       logo="../../Full_Project_3.png"
@@ -59,7 +61,7 @@ const FullProject = () => (
       logo="../../Full_Project_5.png"
       title="Design Highlight 1"
       subtitle="Easy Task Assignment"
-      text="Sourcing manager John creates a new sourcing project. He can immediately check the overall templated tasks and start to assign the tasks for the team with recommendations based on the previous projects."
+      text="Sourcing manager John creates a new sourcing project. He can immediately check the overall templated tasks and start to assign the tasks for the team."
     />
 
     <Section
@@ -76,7 +78,6 @@ const FullProject = () => (
       text="John checks the progress of the project and see if there are any outstanding tasks or documents he needs to take care of. The widget content is contextual based on the project stages so it can be helpful for his weekly reporting and also future benchmarking."
     />
 
-
     <Section
       logo=""
       title="Outcome"
@@ -86,14 +87,36 @@ const FullProject = () => (
 
     <div className="Footer">
       <div className="FooterGroup">
-
-        <div className="copyright"><p>Designed & Developed by<br /> Saebom April Kwon with React</p></div>
-        <div className="facebook"><a href="https://kr.linkedin.com/in/saebomkwon" aria-label="Go to Linkedin Profile">LinkedIn</a></div>
-        <div className="instagram"><a href="https://www.instagram.com/aprilsbkwon/" aria-label="Go to Instagram Profile">Instagram</a></div>
-        <div className="email"><a mailto="saebom@umich.edu" aria-label="Send email">Email</a></div>
+        <div className="copyright">
+          <p>
+            Designed & Developed by
+            <br /> Saebom April Kwon with React
+          </p>
+        </div>
+        <div className="facebook">
+          <a
+            href="https://kr.linkedin.com/in/saebomkwon"
+            aria-label="Go to Linkedin Profile"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="instagram">
+          <a
+            href="https://www.instagram.com/aprilsbkwon/"
+            aria-label="Go to Instagram Profile"
+          >
+            Instagram
+          </a>
+        </div>
+        <div className="email">
+          <a mailto="saebom@umich.edu" aria-label="Send email">
+            Email
+          </a>
+        </div>
       </div>
     </div>
   </div>
-)
+);
 
-export default FullProject
+export default FullProject;
