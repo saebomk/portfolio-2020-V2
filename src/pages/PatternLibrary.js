@@ -1,16 +1,13 @@
-import React, { useRef } from 'react'
-import Link from 'gatsby-link'
-import ProjectHero from '../components/ProjectHero';
-import Section from '../components/Section';
+import React, { useRef } from "react";
+import Link from "gatsby-link";
+import ProjectHero from "../components/ProjectHero";
+import Section from "../components/Section";
 // import { FaInstagram } from 'react-icons/fa';
 // import { FaLinkedin } from 'react-icons/fa';
 // import { FaRegEnvelope } from 'react-icons/fa';
 
-
 const PatternLibrary = () => (
-
   <div className="ProjectSlide">
-      
     <ProjectHero
       logo="../../PatternLibrary_0_1.png"
       title="How I Created Team Design Pattern Library"
@@ -58,19 +55,41 @@ const PatternLibrary = () => (
       logo=""
       title="Lessons Learned"
       subtitle=""
-      text="The pattern library's impact can be limited without understanding the full use cases, spend good time to research on components and their variations. • It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. • While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases."
+      text="The pattern library's impact can be limited without understanding the full use cases, spend time to research on components and their variations. • It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. • While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases."
     />
 
     <div className="Footer">
       <div className="FooterGroup">
-
-        <div className="copyright"><p>Designed & Developed by<br /> Saebom April Kwon with React</p></div>
-        <div className="facebook"><a href="https://kr.linkedin.com/in/saebomkwon" aria-label="Go to Linkedin Profile">LinkedIn</a></div>
-        <div className="instagram"><a href="https://www.instagram.com/aprilsbkwon/" aria-label="Go to Instagram Profile">Instagram</a></div>
-        <div className="email"><a mailto="saebom@umich.edu" aria-label="Send email">Email</a></div>
+        <div className="copyright">
+          <p>
+            Designed & Developed by
+            <br /> Saebom April Kwon with React
+          </p>
+        </div>
+        <div className="facebook">
+          <a
+            href="https://kr.linkedin.com/in/saebomkwon"
+            aria-label="Go to Linkedin Profile"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="instagram">
+          <a
+            href="https://www.instagram.com/aprilsbkwon/"
+            aria-label="Go to Instagram Profile"
+          >
+            Instagram
+          </a>
+        </div>
+        <div className="email">
+          <a mailto="saebom@umich.edu" aria-label="Send email">
+            Email
+          </a>
+        </div>
       </div>
     </div>
   </div>
-)
+);
 
-export default PatternLibrary
+export default PatternLibrary;

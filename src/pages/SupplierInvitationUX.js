@@ -1,16 +1,13 @@
-import React, { useRef } from 'react'
-import Link from 'gatsby-link'
-import ProjectHero from '../components/ProjectHero';
-import Section from '../components/Section';
+import React, { useRef } from "react";
+import Link from "gatsby-link";
+import ProjectHero from "../components/ProjectHero";
+import Section from "../components/Section";
 // import { FaInstagram } from 'react-icons/fa';
 // import { FaLinkedin } from 'react-icons/fa';
 // import { FaRegEnvelope } from 'react-icons/fa';
 
-
 const SupplierInvitationUX = () => (
-
   <div className="ProjectSlide">
-      
     <ProjectHero
       logo="../../SupplierInvitationUX_0_1.png"
       title="Supplier Invitation UX"
@@ -36,7 +33,7 @@ const SupplierInvitationUX = () => (
     <Section
       logo="../../SupplierInvitationUX_1.png"
       title="Research"
-      subtitle="Flow"
+      subtitle="Provide help ahead"
       text="There was already numerous customer feedback asking about enhancing the poor search results in supplier invitation. Therefore, I collected user feedback to identify what are the most common parameters for the search. Meanwhile, we collaborated with the data science team to come up with the use cases where recommendations can be useful. As a result, I came up with 2 refined user stories that can use recommendations and search."
     />
 
@@ -56,42 +53,64 @@ const SupplierInvitationUX = () => (
 
     <Section
       logo="../../SupplierInvitationUX_4.png"
-      title="For Search"
-      subtitle=""
+      title="Design"
+      subtitle="For Search"
       text="If user wants to find a specific supplier with the organization or contact informatioon, they can go to Advanced search chooser with supplier filters"
     />
 
-<Section
+    <Section
       logo="../../SupplierInvitationUX_5.png"
       title="Test"
       subtitle=""
       text="Especially for item-level supplier recommendations, I tested the prototypes with 5 participants (indirect sourcing managers, sourcing specialists). "
     />
 
-<Section
+    <Section
       logo="../../SupplierInvitationUX_6.png"
       title="Component Building"
       subtitle="Make the Common Component Reusable"
       text="Supplier search & selection UX is not only the case for Sourcing but also a very common pattern for other buying apps. I shared the use cases and designs with the Supplier Management app, Contracts, and Buying app designers to come up with 3 design patterns that designers can use across the apps."
     />
 
-<Section
+    <Section
       logo=""
       title="Lessons Learned"
       subtitle=""
-      text="For enterprise software UX, always consider the consequences of my designs and think big, there always could be use cases I haven't discovered. • Consistency across apps in the same product gives users comfort and low memory burden when they see a new interaction. • This was my first time to collaborate with an intern, I was impressed by her moderating and improvisation skills in the user sessions!"
+      text="For enterprise software UX, always consider the consequences of my designs and think big, there always could be use cases I haven't discovered. • Consistency across apps gives users comfort and low memory burden when they see a new interaction. • This was my first time to collaborate with an intern, I was impressed by her moderating and improvisation skills in the user sessions!"
     />
 
     <div className="Footer">
       <div className="FooterGroup">
-
-        <div className="copyright"><p>Designed & Developed by<br /> Saebom April Kwon with React</p></div>
-        <div className="facebook"><a href="https://kr.linkedin.com/in/saebomkwon" aria-label="Go to Linkedin Profile">LinkedIn</a></div>
-        <div className="instagram"><a href="https://www.instagram.com/aprilsbkwon/" aria-label="Go to Instagram Profile">Instagram</a></div>
-        <div className="email"><a mailto="saebom@umich.edu" aria-label="Send email">Email</a></div>
+        <div className="copyright">
+          <p>
+            Designed & Developed by
+            <br /> Saebom April Kwon with React
+          </p>
+        </div>
+        <div className="facebook">
+          <a
+            href="https://kr.linkedin.com/in/saebomkwon"
+            aria-label="Go to Linkedin Profile"
+          >
+            LinkedIn
+          </a>
+        </div>
+        <div className="instagram">
+          <a
+            href="https://www.instagram.com/aprilsbkwon/"
+            aria-label="Go to Instagram Profile"
+          >
+            Instagram
+          </a>
+        </div>
+        <div className="email">
+          <a mailto="saebom@umich.edu" aria-label="Send email">
+            Email
+          </a>
+        </div>
       </div>
     </div>
   </div>
-)
+);
 
-export default SupplierInvitationUX
+export default SupplierInvitationUX;
