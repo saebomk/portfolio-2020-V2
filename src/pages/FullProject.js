@@ -12,7 +12,7 @@ const FullProject = () => (
       logo="../../Full_Project_0_1.png"
       title="Redesigning Strategic Sourcing Project"
       date="3 months"
-      role="UX Designer in the team of 1 Product Manager, 15 Engineers, 1 UX Researcher"
+      role="UX Designer in the team of 1 Product Manager, 15 Engineers, 2 UX Designers, 1 UX Researcher"
       impact="Reduced 20+ page transition, 40+ clickstreams for the feature that can cover 80% of app use cases, Increased user ratings on simplicity, learnability, and insightfulness, Shared with the broader product team for future feature roadmap"
     />
 
