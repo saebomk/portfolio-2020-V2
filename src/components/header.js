@@ -1,44 +1,91 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import './Header.css'
-import { renderStatic } from 'react-helmet'
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import { HeaderItemData } from "../data/HeaderItemData";
+import { HeaderText } from "./styles/TextStyles";
 
+const HeaderWrapper = styled.div`
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px 0;
+  z-index: 100;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+  backdrop-filter: blur(20px);
+  /* box-shadow: inset 0px 0px 10px 10px #fff; */
 
-class Header extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      hasScrolled: false
-    }
+  & .HeaderScrolled {
+    background: rgba(32, 32, 32, 0.5);
+    padding: 24px 0;
+    backdrop-filter: blur(20px);
   }
+`;
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
-    window.scrollTo(0, 0);
+const HeaderItemWrapper = styled.div`
+  max-width: 920px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 600px 1fr 1fr;
+  /* justify-items: center; */
+  align-items: center;
+  padding: 0 32px;
+  @media (max-width: 1140px) {
+    grid-template-columns: 4fr 1fr 1fr;
   }
+  @media (max-width: 720px) {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+`;
 
-  handleScroll = (event) => {
-    const scrollTop = window.pageYOffset
+const HeaderItem = styled(HeaderText)`
+  grid-area: HeaderItem;
+  padding: 8px;
+  transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  :hover {
+    color: rgba(32, 32, 32, 0.5);
+  }
+  @media (max-width: 720px) {
+    font-size: 14px;
+  }
+`;
 
-    if (scrollTop > 50) {
-      this.setState({ hasScrolled: true })
-    } else {
-      this.setState({ hasScrolled: false })
-    }
-  }
-  
-  render() {
-    return (
-      <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-        <div className="HeaderGroup">
-          <Link className="HeaderTitle" to="/">Saebom April Kwon</Link>
-          <a className="Resume" href="https://drive.google.com/file/d/1iey-Ias6Ydf37Mll6UVdUpOz0I8sJ5xB/view?usp=sharing">Resume</a>
-          <a className="PastWork" href="https://www.notion.so/saebomkwon/Saebom-April-Kwon-6a914788d7874486a2046793c4243539">Past Work</a>
-        </div>
-      </div>
-    )
-  }
+export default function Header() {
+  //class Header extends React.Component {
+  // constructor(props) {
+  //   super(props);
+
+  //   this.state = {
+  //     hasScrolled: false,
+  //   };
+  // }
+
+  // componentDidMount() {
+  //   window.addEventListener("scroll", this.handleScroll);
+  //   window.scrollTo(0, 0);
+  // }
+
+  // handleScroll = (event) => {
+  //   const scrollTop = window.pageYOffset;
+
+  //   if (scrollTop > 50) {
+  //     this.setState({ hasScrolled: true });
+  //   } else {
+  //     this.setState({ hasScrolled: false });
+  //   }
+  // };
+
+  //  className={this.state.hasScrolled ? "HeaderScrolled" : ""}
+
+  return (
+    <HeaderWrapper>
+      <HeaderItemWrapper>
+        {HeaderItemData.map((item, index) => (
+          <Link to={item.link} key={index}>
+            <HeaderItem>{item.title}</HeaderItem>
+          </Link>
+        ))}
+        <HeaderItem></HeaderItem>
+      </HeaderItemWrapper>
+    </HeaderWrapper>
+  );
 }
-
-export default Header

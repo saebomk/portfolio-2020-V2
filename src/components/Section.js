@@ -1,95 +1,79 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router';
+import React from "react";
+import styled from "styled-components";
+import FullProjectBackground from "./animations/FullProjectBackground";
+import { BodyText, HeaderText, Title } from "./styles/TextStyles";
 
-const SectionGroup = styled.div`
-    height: 100%;
-    padding: 40px;
-    display: block;
-    position: relative;
-    @media (max-width: 1024px) {
-        height: 100%;
-        padding: 32px;
-    }
+export default function Section(props) {
+  const { item } = props;
 
-    &:nth-child(even) {
-        background: #fafafa;
-    }
+  var Animation;
+  if (item.animation === "FullProjectBackground") {
+    Animation = <FullProjectBackground />;
+  } else {
+    Animation = <SectionImage src={item.diagram} />;
+  }
 
-    &:nth-child(odd) {
-        background: #ffffff;
-    }
-`
+  return (
+    <SectionWrapper>
+      <SectionTitleWrapper>
+        <SectionTitle>{item.title}</SectionTitle>
+        <SectionSubtitle>{item.subtitle}</SectionSubtitle>
+        <SectionDescription>{item.description}</SectionDescription>
+      </SectionTitleWrapper>
+      <SectionImageWrapper>
+        {Animation}
+        {/* <SectionImage src={item.diagram} /> */}
+      </SectionImageWrapper>
+    </SectionWrapper>
+  );
+}
 
-const SectionLink = styled.a`
-`
-const SectionLogo = styled.img`
-    align-self: center;
-    max-width: 920px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    @media (max-width: 1024px) {
-        width: 100%;
-    }
-`
+const SectionWrapper = styled.div`
+  position: relative;
+  padding: 72px 32px;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  &:nth-child(even) {
+    background: #fafafa;
+  }
+`;
 
-const SectionTitleGroup = styled.div`
-    display: grid;
-    width: 50%;
-    margin: 40px 200px;
-    @media (max-width: 1024px) {
-        grid-template-columns: 1fr;
-        margin: 32px 8px;
-        width: 100%;
-    }
-`
+const SectionTitleWrapper = styled.div`
+  /* display: grid;
+  justify-content: center; */
+`;
 
-const SectionTitle = styled.h3`
-    color: black;
-    font-size: 16px;
-    margin: 0;
-    line-height: 1.2;
-    @media (max-width: 1024px) {
-        font-size: 14px;
-    }
-`
+const SectionTitle = styled(HeaderText)`
+  line-height: 2;
+`;
 
-const SectionSubtitle = styled.h4`
-    color: black;
-    font-size: 24px;
-    font-weight: 500;
-    margin: 20px 0;
-    line-height: 1.2;
-    @media (max-width: 1024px) {
-        font-size: 20px;
-    }
-`
+const SectionSubtitle = styled(Title)`
+  line-height: 2;
+`;
 
-const SectionText = styled.p`
-    color: black;
-    font-size: 14px;
-    margin: 0;
-    line-height: 1.5;
-    @media (max-width: 1024px) {
-        font-size: 12px;
-    }
-`
+const SectionDescription = styled(BodyText)`
+  padding: 16px 0 0 0;
+  line-height: 1.5;
+  max-width: 700px;
+`;
 
-const NextSection = styled.a`
-    color: black;
-`
+const SectionImageWrapper = styled.div`
+  display: block;
+  position: relative;
+  /* height: 100%; */
+  padding: 48px 0 0 0;
+  width: 100%;
+`;
 
-const Section = props => (
-	<SectionGroup image={props.bg}>
-		<SectionTitleGroup>
-			<SectionTitle>{props.title}</SectionTitle>
-            <SectionSubtitle>{props.subtitle}</SectionSubtitle>
-			<SectionText>{props.text}</SectionText>
-		</SectionTitleGroup>
-        <SectionLink href={props.logo}><SectionLogo src={props.logo} /></SectionLink>
-	</SectionGroup>
-)
-
-export default Section
+const SectionImage = styled.img`
+  align-self: center;
+  max-width: 920px;
+  height: auto;
+  object-fit: fill;
+  /* margin-left: auto;
+  margin-right: auto; */
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+`;
