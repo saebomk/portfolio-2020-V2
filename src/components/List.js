@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
-import { DescriptionText, Subtitle, Title } from "./styles/TextStyles";
+import { DescriptionText, Subtitle } from "./styles/TextStyles";
 
 export default function List(props) {
   const { item } = props;
