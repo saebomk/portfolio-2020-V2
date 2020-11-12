@@ -3,7 +3,6 @@ import Layout from "../components/layout/layout";
 import SEO from "../components/layout/seo";
 import ListWrapper from "../components/ListWrapper";
 import styled from "styled-components";
-import Hero from "../components/Hero";
 import { DescriptionText, PageTitle } from "../components/styles/TextStyles";
 
 export default function IndexPage() {
