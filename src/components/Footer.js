@@ -28,6 +28,7 @@ const FooterWrapper = styled.div`
 const Copyright = styled(HeaderText)`
   display: flex;
   padding: 32px;
+  text-align: center;
 `;
 
 const FooterItemWrapper = styled.div`

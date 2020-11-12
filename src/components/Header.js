@@ -44,9 +44,6 @@ const HeaderItem = styled(HeaderText)`
   :hover {
     color: rgba(32, 32, 32, 0.5);
   }
-  @media (max-width: 720px) {
-    font-size: 14px;
-  }
 `;
 
 export default function Header() {

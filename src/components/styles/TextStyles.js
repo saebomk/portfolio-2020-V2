@@ -7,6 +7,9 @@ export const PageTitle = styled.h1`
   font-weight: bold;
   font-size: 32px;
   line-height: 36px;
+  @media (max-width: 720px) {
+    font-size: 24px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -16,8 +19,8 @@ export const Title = styled.h2`
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  @media (max-width: 1440px) {
-    font-size: 18px;
+  @media (max-width: 720px) {
+    font-size: 16px;
   }
 `;
 
@@ -29,6 +32,9 @@ export const Subtitle = styled.h3`
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
+  @media (max-width: 720px) {
+    font-size: 14px;
+  }
 `;
 
 export const DescriptionText = styled.h4`
@@ -70,4 +76,7 @@ export const HeaderText = styled.p`
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+  @media (max-width: 1440px) {
+    font-size: 12px;
+  }
 `;
