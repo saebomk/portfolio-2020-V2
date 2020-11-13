@@ -6,6 +6,8 @@ export const SectionData = {
       description:
         "Strategic sourcing project is a fundamental cyclic process for sourcing managers, from identifying the current category spend, analyzing the market, strategizing the plan, running sourcing events, and benchmarking for the next cycle. I was tasked to redesign SAP Ariba Sourcing project, which is a workspace that users can collaborate with internal stakeholders via task and document managing functionalities.",
       diagram: "../../images/animations/FullProject_1.svg",
+      arialabel:
+        "Strategic Sourcing project background with the persona and steps for the project",
     },
     {
       title: "Kick Off",
@@ -13,6 +15,7 @@ export const SectionData = {
       description:
         "After the project started, I immediately realized the pretty-overwhelming flexibility of sourcing projects and their data. I first created the current interaction map by following some of the real user templates, the best practices, and previous design thinking workshop results, to understand each and every functionality in the project. After that, I discussed with product managers to scope out the first design phase by their priorities.",
       diagram: "../../images/animations/FullProject_2.svg",
+      arialabel: "The Interaction map for Strategic Sourcing project",
     },
     {
       title: "Research",
@@ -20,6 +23,8 @@ export const SectionData = {
       description:
         "We conducted a multi-methodology research effort to better understand the user's core goals and needs. For each research method, we set the specific research questions that we want to get answers from. I organized meaningful findings in a spreadsheet based on features and consolidated the analysis with recommendations, UX values, and UX priority ratings.",
       diagram: "../../images/animations/FullProject_3.svg",
+      arialabel:
+        "4 research methods I used for the projects, Heuristic evaluation, comparative analysis, user interviews, and card sorting",
     },
     {
       title: "Define",
@@ -27,6 +32,7 @@ export const SectionData = {
       description:
         "From the research, we defined three personas and the flows that could be the most impactful. Along with the task flows, I identified and refined 5 more specific user flows based on the workflow (which objects are used) and ownership (who creates/performs the task).",
       diagram: "../../images/animations/FullProject_4.svg",
+      arialabel: "User flows for 3 personas",
     },
     {
       title: "UX Values",
@@ -34,6 +40,8 @@ export const SectionData = {
       description:
         "While we analyzed the findings, we tried mapping out the findings with the general UX goals and measurable metrics. The 3 values that got the most number of votes are set as the main UX values of the project: Simplicity, learnability, and Insightfulness. This helped us to have clear goals and generate the solution that meets the values.",
       diagram: "../../images/animations/FullProject_5.svg",
+      arialabel:
+        "3 UX Goals for the project, Simplicity, Ease of learning, and Insightfulness",
     },
     {
       title: "Design Highlight 1",
@@ -41,6 +49,8 @@ export const SectionData = {
       description:
         "Sourcing manager John creates a new sourcing project. He can immediately check the overall templated tasks and start to assign the tasks for the team.",
       diagram: "../../images/animations/FullProject_6.svg",
+      arialabel:
+        "As Is and To Be for the tasks table design, and other table design explorations",
     },
     {
       title: "Design Highlight 2",
@@ -48,6 +58,7 @@ export const SectionData = {
       description:
         "Supplier manager Jane is a part of the project team and needs to closely collaborate with sourcing managers. She checks the Kanban view with filters where she can see what are the immediate tasks and their dues.",
       diagram: "../../images/animations/FullProject_7.gif",
+      arialabel: "Interactive mocks for tasks view from table to card view",
     },
     {
       title: "Design Highlight 3",
@@ -55,6 +66,7 @@ export const SectionData = {
       description:
         "John checks the progress of the project and see if there are any outstanding tasks or documents he needs to take care of. The widget content is contextual based on the project stages so it can be helpful for his weekly reporting and also future benchmarking.",
       diagram: "../../images/animations/FullProject_8.gif",
+      arialabel: "Interactive mocks for project widget cards with carousel",
     },
     {
       title: "Outcome",
@@ -85,6 +97,8 @@ export const SectionData = {
       description:
         "I worked closely with developers to discuss the specs and make sure the design is implemented correctly. We had weekly sync up with developers to discuss new components and the development statuses. One clear demo could be way more effective than the spec with lengthy descriptions. For instance, I created a Javascript animation demo using SAP Fundamentals Angular components to show sticky behavior for page, section, and table headers.",
       diagram: "../../images/animations/patternlibrary_1.gif",
+      arialabel:
+        "Interactive mocks for showing the sticky header and footer behavior",
     },
     {
       title: "Project Journey 3",
@@ -92,6 +106,7 @@ export const SectionData = {
       description:
         "Meanwhile, there was an organization-wide change that all SAP design teams migrating to Figma. We were one of the first waves that migrated our team design library to Figma as soon as we onboarded. The goal for Figma migration was to create the pattern as flexible as possible utilizing new features such as auto-layout and frames. With one design intern, I listed out all in-development patterns and their variations. The full migration took 1 month and updated upon new projects. I also created a quick guide for Figma so new designers in Figma can take a look (with cute mini tutorials!)",
       diagram: "../../images/animations/patternlibrary_2.svg",
+      arialabel: "Some screenshots from Figma Guidelines for Newcomers",
     },
     {
       title: "Project Journey 4",
@@ -99,6 +114,7 @@ export const SectionData = {
       description:
         "There is still an ongoing team effort to make UX consistency across different products. I shared the team library with the broader Apps design framework team to share Sourcing use cases and our design rationales. In the meantime, I created Sourcing - Fiori Index that designers can see and compare the design, development status in both Sourcing native and Fiori components so designers can decide on what components to use. Here are the completed design patterns in Figma.",
       diagram: "../../images/animations/patternlibrary_3.svg",
+      arialabel: "The screenshot showing all Sourcing App Components",
     },
     {
       title: "Lessons Learned",
@@ -129,12 +145,16 @@ export const SectionData = {
       description:
         "There was already numerous customer feedback asking about enhancing the poor search results in supplier invitation. Therefore, I collected user feedback to identify what are the most common parameters for the search. Meanwhile, we collaborated with the data science team to come up with the use cases where recommendations can be useful. As a result, I came up with 2 refined user stories that can use recommendations and search.",
       diagram: "../../images/animations/supplierinvitationux_1.svg",
+      arialabel:
+        "The user flow for searching suppliers in the event from recommendations to search",
     },
     {
       title: "Design",
       subtitle: "For Simple Events",
       description: "Users can see recommendations in zero state table",
       diagram: "../../images/animations/supplierinvitationux_2.gif",
+      arialabel:
+        "Interactive mocks for showing recommended supplier cards in empty suppliers table",
     },
     {
       title: "Design",
@@ -142,6 +162,8 @@ export const SectionData = {
       description:
         "There is still an ongoing team effort to make UX consistency across different products. I shared the team library with the broader Apps design framework team to share Sourcing use cases and our design rationales. In the meantime, I created Sourcing - Fiori Index that designers can see and compare the design, development status in both Sourcing native and Fiori components so designers can decide on what components to use. Here are the completed design patterns in Figma.",
       diagram: "../../images/animations/supplierinvitationux_3.gif",
+      arialabel:
+        "Interactive mocks for showing recommended suppliers for items with recommendation scores",
     },
     {
       title: "Design",
@@ -149,6 +171,7 @@ export const SectionData = {
       description:
         "If user wants to find a specific supplier with the organization or contact informatioon, they can go to Advanced search chooser with supplier filters",
       diagram: "../../images/animations/supplierinvitationux_4.svg",
+      arialabel: "The image mock for supplier chooser with filters",
     },
     {
       title: "Test",
@@ -156,6 +179,8 @@ export const SectionData = {
       description:
         "Especially for item-level supplier recommendations, I tested the prototypes with 5 participants (indirect sourcing managers, sourcing specialists).",
       diagram: "../../images/animations/supplierinvitationux_5.svg",
+      arialabel:
+        "The design testing options for supplier chooser with recommendations",
     },
     {
       title: "Component Building",
@@ -163,6 +188,7 @@ export const SectionData = {
       description:
         "Supplier search & selection UX is not only the case for Sourcing but also a very common pattern for other buying apps. I shared the use cases and designs with the Supplier Management app, Contracts, and Buying app designers to come up with 3 design patterns that designers can use across the apps.",
       diagram: "../../images/animations/supplierinvitationux_6.svg",
+      arialabel: "The designed flow for global supplier chooser component",
     },
     {
       title: "Lessons Learned",
@@ -179,6 +205,8 @@ export const SectionData = {
       description:
         "Often sourcing managers want to add questions or content that are visible only when the supplier responded with a certain answer. For instance, a sourcing event template would show additional compliance requirement materials for only who responded they are located in Europe.",
       image: "../../images/animations/conditionbuilder_1.svg",
+      arialabel:
+        "The data flow showing the relationship between individual conditions and event conditions manager",
     },
     {
       title: "Problem",
@@ -186,6 +214,8 @@ export const SectionData = {
       description:
         "After looking at the legacy UI, the first thing that came up my mind was: 'Is this a maze on the screen?' Even having very similar functionalities with other products, I realized that our product has a bigger gap between expectations and actual behaviors. I proposed some enhancements based on some secondary research on similar features and use cases:",
       diagram: "../../images/animations/conditionbuilder_2.svg",
+      arialabel:
+        "The three enhancement points for condition builder UX, intuitive, helpful, and efficient",
     },
     {
       title: "Design",
@@ -193,6 +223,8 @@ export const SectionData = {
       description:
         "There was already numerous customer feedback asking about enhancing the poor search results in supplier invitation. Therefore, I collected user feedback to identify what are the most common parameters for the search. Meanwhile, we collaborated with the data science team to come up with the use cases where recommendations can be useful. As a result, I came up with 2 refined user stories that can use recommendations and search.",
       diagram: "../../images/animations/conditionbuilder_3.gif",
+      arialabel:
+        "Interactive mocks for event condition manager with the list of conditions",
     },
     {
       title: "Design",
@@ -200,6 +232,8 @@ export const SectionData = {
       description:
         "When creating new conditions, admins can create rows and groups before/after/inside each row and group",
       diagram: "../../images/animations/conditionbuilder_4.gif",
+      arialabel:
+        "Interactive mocks for expression builder creating rows and groups",
     },
     {
       title: "Design",
@@ -207,6 +241,7 @@ export const SectionData = {
       description:
         "If there are multiple criteria, admin can collapse and expand groups",
       diagram: "../../images/animations/conditionbuilder_5.gif",
+      arialabel: "Interactive mocks for expression builder duplicating groups",
     },
     {
       title: "Interaction",
@@ -214,6 +249,7 @@ export const SectionData = {
       description:
         "I delivered fully interactive Figma mocks and detailed specs for the responsive dialogs that can accommodate complex conditions with multiple groups and rows.",
       diagram: "../../images/animations/conditionbuilder_6.svg",
+      arialabel: "The design specification for conditions builder",
     },
     {
       title: "Lessons Learned",

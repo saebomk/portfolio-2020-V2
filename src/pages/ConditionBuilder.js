@@ -11,6 +11,7 @@ export default function ConditionBuilder() {
       <Hero
         title="Visibility Condition Builder UI"
         logo="/images/animations/conditionbuilder_0_1.svg"
+        arialabel="Condition Builder UI Thumbnail"
         bgimage="/images/animations/conditionbuilder_0_2.svg"
         duration="6 months"
         role="Lead UX Designer in the team of 9 contributing UX Designers, 2 front-end developers, 2 product designers"

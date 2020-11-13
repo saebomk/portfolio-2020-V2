@@ -11,6 +11,7 @@ export default function FullProject() {
       <Hero
         title="Redesigning Strategic Sourcing Project"
         logo="/images/animations/fullproject_0_1.svg"
+        arialabel="Strategic Sourcing Project Thumbnail"
         bgimage="/images/animations/fullproject_0_2.svg"
         duration="3 months"
         role="UX Designer in the team of 1 Product Manager, 15 Engineers,  2 UX Designers, 1 UX Researcher"

@@ -13,7 +13,7 @@ export default function List(props) {
           <ListSubtitle>{item.subtitle}</ListSubtitle>
         </ListTitleGroup>
         <ListLogoGroup>
-          <ListLogo src={item.thumbnail} />
+          <ListLogo src={item.thumbnail} alt={item.arialabel} />
         </ListLogoGroup>
       </ListGroup>
     </Link>

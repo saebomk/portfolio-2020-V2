@@ -1,28 +1,32 @@
 import React from "react";
 import styled from "styled-components";
-import FullProjectBackground from "./animations/FullProjectBackground";
 import { BodyText, HeaderText, Title } from "./styles/TextStyles";
 
 export default function Section(props) {
   const { item } = props;
 
-  var Animation;
-  if (item.animation === "FullProjectBackground") {
-    Animation = <FullProjectBackground />;
-  } else {
-    Animation = <SectionImage src={item.diagram} />;
-  }
+  // var Animation;
+  // if (item.animation === "FullProjectBackground") {
+  //   Animation = <FullProjectBackground />;
+  // } else {
+  //   Animation = <SectionImage src={item.diagram} alt={item.arialabel} />;
+  // }
 
   return (
     <SectionWrapper>
       <SectionTitleWrapper>
-        <SectionTitle>{item.title}</SectionTitle>
-        <SectionSubtitle>{item.subtitle}</SectionSubtitle>
-        <SectionDescription>{item.description}</SectionDescription>
+        {item.title ? <SectionTitle>{item.title}</SectionTitle> : null}
+        {item.subtitle ? (
+          <SectionSubtitle>{item.subtitle}</SectionSubtitle>
+        ) : null}
+        {item.description ? (
+          <SectionDescription>{item.description}</SectionDescription>
+        ) : null}
       </SectionTitleWrapper>
       <SectionImageWrapper>
-        {Animation}
-        {/* <SectionImage src={item.diagram} /> */}
+        {item.diagram ? (
+          <SectionImage src={item.diagram} alt={item.arialabel} />
+        ) : null}
       </SectionImageWrapper>
     </SectionWrapper>
   );

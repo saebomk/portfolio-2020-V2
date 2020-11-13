@@ -33,7 +33,7 @@ const HeaderItemWrapper = styled.div`
     grid-template-columns: 4fr 1fr 1fr;
   }
   @media (max-width: 720px) {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 120px 1fr 1fr;
   }
 `;
 
@@ -44,35 +44,12 @@ const HeaderItem = styled(HeaderText)`
   :hover {
     color: rgba(32, 32, 32, 0.5);
   }
+  @media (max-width: 720px) {
+    font-size: 12px;
+  }
 `;
 
 export default function Header() {
-  //class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = {
-  //     hasScrolled: false,
-  //   };
-  // }
-
-  // componentDidMount() {
-  //   window.addEventListener("scroll", this.handleScroll);
-  //   window.scrollTo(0, 0);
-  // }
-
-  // handleScroll = (event) => {
-  //   const scrollTop = window.pageYOffset;
-
-  //   if (scrollTop > 50) {
-  //     this.setState({ hasScrolled: true });
-  //   } else {
-  //     this.setState({ hasScrolled: false });
-  //   }
-  // };
-
-  //  className={this.state.hasScrolled ? "HeaderScrolled" : ""}
-
   return (
     <HeaderWrapper>
       <HeaderItemWrapper>

@@ -12,7 +12,8 @@ export default function Hero(props) {
     <HeroWrapper img={props.bgimage}>
       <HeroTitleWrapper>
         <HeroTitle>{props.title}</HeroTitle>
-        <HeroSubtitle>{props.subtitle}</HeroSubtitle>
+        {props.subtitle ? <HeroSubtitle>{props.subtitle}</HeroSubtitle> : null}
+
         <HeroMetaWrapper>
           <HeroMetaDataWrapper>
             <HeroMetaDataTitle>Initial Delivery</HeroMetaDataTitle>
@@ -28,7 +29,7 @@ export default function Hero(props) {
           </HeroMetaDataWrapper>
         </HeroMetaWrapper>
         <HeroImageWrapper>
-          <HeroImage src={props.logo}></HeroImage>
+          <HeroImage src={props.logo} alt={props.arialabel}></HeroImage>
         </HeroImageWrapper>
       </HeroTitleWrapper>
     </HeroWrapper>
@@ -62,8 +63,6 @@ const HeroTitleWrapper = styled.div`
   max-width: 920px;
   padding: 200px 0;
   margin: 0 auto;
-  align-items: center;
-  justify-items: center;
   display: grid;
   grid-template-areas:
     "HeroTitle ."
@@ -77,6 +76,7 @@ const HeroTitleWrapper = styled.div`
 
 const HeroMetaDataWrapper = styled.div`
   grid-area: HeroMetaDataWrapper;
+  padding: 16px 0 0 0;
 `;
 
 const HeroMetaDataTitle = styled(Subtitle)``;
