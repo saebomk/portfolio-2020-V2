@@ -26,19 +26,19 @@ const HeaderItemWrapper = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 600px 1fr 1fr;
-  /* justify-items: center; */
   align-items: center;
   padding: 0 32px;
   @media (max-width: 1140px) {
     grid-template-columns: 4fr 1fr 1fr;
   }
   @media (max-width: 720px) {
-    grid-template-columns: 120px 1fr 1fr;
+    display: flex;
+    justify-content: center;
   }
 `;
 
 const HeaderItem = styled(HeaderText)`
-  grid-area: HeaderItem;
+  /* grid-area: HeaderItem; */
   padding: 8px;
   transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
   :hover {
@@ -46,6 +46,8 @@ const HeaderItem = styled(HeaderText)`
   }
   @media (max-width: 720px) {
     font-size: 12px;
+    display: flex;
+    justify-items: space-around;
   }
 `;
 
