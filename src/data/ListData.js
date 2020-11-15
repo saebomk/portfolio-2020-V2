@@ -1,10 +1,10 @@
 export const ListData = [
   {
-    title: "Redesigning Strategic Sourcing Project",
+    title: "Redesigning Strategic Sourcing Workspace",
     subtitle: "UX Research / UX Design",
     link: "/FullProject/",
     thumbnail: "images/thumbnails/FullProject_0.svg",
-    arialabel: "Strategic Sourcing Project Thumbnail",
+    arialabel: "Strategic Sourcing Workspace Thumbnail",
   },
   {
     title: "How I created Team Design Pattern",

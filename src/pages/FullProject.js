@@ -9,9 +9,9 @@ export default function FullProject() {
     <Layout>
       <SEO title="Full Project" />
       <Hero
-        title="Redesigning Strategic Sourcing Project"
+        title="Redesigning Strategic Sourcing Workspace"
         logo="/images/animations/fullproject_0_1.svg"
-        arialabel="Strategic Sourcing Project Thumbnail"
+        arialabel="Strategic Sourcing Workspace Thumbnail"
         bgimage="/images/animations/fullproject_0_2.svg"
         duration="3 months"
         role="UX Designer in the team of 1 Product Manager, 15 Engineers,  2 UX Designers, 1 UX Researcher"

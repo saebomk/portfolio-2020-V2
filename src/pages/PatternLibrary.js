@@ -11,6 +11,7 @@ export default function PatternLibrary() {
       <Hero
         title="How I Created Team Design Pattern"
         logo="/images/animations/patternlibrary_0_1.svg"
+        arialabel= "Pattern Library Thumbnail"
         bgimage="/images/animations/patternlibrary_0_2.svg"
         duration="6 months"
         role="Lead UX Designer in the team of 9 contributing UX Designers, 2 front-end developers, 2 product designers"

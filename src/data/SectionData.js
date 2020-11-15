@@ -4,7 +4,7 @@ export const SectionData = {
       title: "Background",
       subtitle: "Completing the Cycle for Sourcing",
       description:
-        "Strategic sourcing project is a fundamental cyclic process for sourcing managers, from identifying the current category spend, analyzing the market, strategizing the plan, running sourcing events, and benchmarking for the next cycle. I was tasked to redesign SAP Ariba Sourcing project, which is a workspace that users can collaborate with internal stakeholders via task and document managing functionalities.",
+        "Strategic sourcing project is a fundamental cyclic process for sourcing managers, from identifying the current category spend, analyzing the market, strategizing the plan, running sourcing events, and benchmarking for the next cycle. I was tasked to redesign SAP Ariba Strategic Sourcing project object, which is a workspace that users can collaborate with internal stakeholders via task and document managing functionalities.",
       diagram: "../../images/animations/FullProject_1.svg",
       arialabel:
         "Strategic Sourcing project background with the persona and steps for the project",
