@@ -132,7 +132,7 @@ export const SectionData = {
       title: "Lessons Learned",
       subtitle: "",
       description:
-        "The pattern library's impact can be limited without understanding the full use cases, spend time to research on components and their variations. • It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. • While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases",
+        "Adopted Fiori design system and delivered fully Fiori-compliant mocks for consistent user experience, improved the productivity by reducing inconsistency and redundant communication  • Managed app design pattern designers can reuse in Sketch / InVision (total 20 versioning) and Figma with 9 contributors, 40% of the symbols were created from the scrath, increased collaboration between designers with 2 team design reviews per week • Held all total 25 weekly cross-functional team sync-ups, shared design specs and interactive mocks • The pattern library's impact can be limited without understanding the full use cases, spend time to research on components and their variations. • It's always good to keep up with the latest consumer UI trend but don't forget you are dealing with enterprise product, maybe you are cutting out possible use cases. • While consistency is the key of seamless enterprise UX, my product persona's use cases could be varied from the usual cases",
       image: "",
     },
   ],

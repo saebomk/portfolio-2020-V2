@@ -11,13 +11,13 @@ export default function PatternLibrary() {
       <Hero
         title="How I Created Team Design Pattern"
         logo="/images/animations/patternlibrary_0_1.svg"
-        arialabel= "Pattern Library Thumbnail"
+        arialabel="Pattern Library Thumbnail"
         bgimage="/images/animations/patternlibrary_0_2.svg"
         duration="6 months"
         role="Lead UX Designer in the team of 9 contributing UX Designers, 2 front-end developers, 2 product designers"
-        impact="Created and managed app design pattern designers can reuse via Sketch / InVision  •
-        Converted all Sourcing-wide design pattern into Figma library (1 month) and shared Figma onboarding guidelines for designers  •
-        Held weekly sync-up for components and design implementation with developers and product managers (6 months) and shared interactive mocks"
+        impact="Delivered fully Fiori-compliant mocks for consistent user experience, improved the productivity by reducing inconsistency and redundant communication •
+        Managed app design pattern designers can reuse in Sketch / InVision (total 20 versioning) and Figma with 9 contributors, 40% of the symbols were created from the scrath, increased collaboration between designers with 2 team design reviews per week •
+        Held all total 25 weekly cross-functional team sync-ups, shared design specs and interactive mocks"
       />
       <SectionGroup page="patternlibrary" />
     </Layout>
