@@ -82,18 +82,22 @@ export const SectionData = {
       subtitle: "Call for Design Consistency",
       description:
         "When I first came to the Sourcing design team, all the apps teams worked in silos having different design patterns and guidelines. As a part of the SAP IES initiative for UX consistency, our team was one of few teams in Ariba who could start adopting the SAP Fiori design system early on for the guided beta of the redesigned app. I created a Sketch team design pattern library (which later I converted to Figma as well) so designers can share their design patterns and make the app-wide design consistent. It also can help avoid inefficiencies in development and lack of clarity when there are new team members get on board the team.",
-      image: "",
+      diagram: "../../images/animations/patternlibrary_4.svg",
+      arialabel:
+        "The before and after from in-house design pattern to SAP Fiori design system",
     },
     {
       title: "Project Journey 1",
       subtitle: "Collecting Patterns Bottom Up",
       description:
         "I started out reaching out to all team designers to collect all the components and their use cases in the app. We held two design critique sessions every week where designers can freely share their designs and discuss the pattern usage and its scalability before signing off to developers. I documented all new updates, open issues, and implementation status in the library.",
-      diagram: "",
+      diagram: "../../images/animations/patternlibrary_5.png",
+      arialabel:
+        "The process from designers discussing about the design pattern to cross-functional team sharing",
     },
     {
       title: "Project Journey 2",
-      subtitle: "Make 2D Alive",
+      subtitle: "Designing Interactions with Developers",
       description:
         "I worked closely with developers to discuss the specs and make sure the design is implemented correctly. We had weekly sync up with developers to discuss new components and the development statuses. One clear demo could be way more effective than the spec with lengthy descriptions. For instance, I created a Javascript animation demo using SAP Fundamentals Angular components to show sticky behavior for page, section, and table headers.",
       diagram: "../../images/animations/patternlibrary_1.gif",
@@ -102,18 +106,26 @@ export const SectionData = {
     },
     {
       title: "Project Journey 3",
+      subtitle: "Creating New Patterns",
+      description:
+        "While aligning the existing components to the design system, designers and I also worked on creating sourcing-specific patterns such as form search, page-wide chooser, also tables. For example, as Sourcing app is table-heavy application, grid table pattern with the cell inline editability is critical for users to quickly edit their data from the first-depth pages.",
+      diagram: "../../images/animations/patternlibrary_7.png",
+      arialabel: "Table pattern design and explorations on cell interaction",
+    },
+    {
+      title: "Project Journey 4",
       subtitle: "Migrating to Figma",
       description:
-        "Meanwhile, there was an organization-wide change that all SAP design teams migrating to Figma. We were one of the first waves that migrated our team design library to Figma as soon as we onboarded. The goal for Figma migration was to create the pattern as flexible as possible utilizing new features such as auto-layout and frames. With one design intern, I listed out all in-development patterns and their variations. The full migration took 1 month and updated upon new projects. I also created a quick guide for Figma so new designers in Figma can take a look (with cute mini tutorials!)",
+        "Meanwhile, we were one of the first waves that migrated our team design library to Figma as soon as SAP design team onboarding started. The goal for Figma migration was to create the pattern as flexible as possible utilizing new features such as auto-layout and frames. With one design intern, I listed out all in-development patterns and their variations. The full migration took 1 month and updated upon new projects. I also created a quick guide for Figma (with cute mini tutorials!)!",
       diagram: "../../images/animations/patternlibrary_2.svg",
       arialabel: "Some screenshots from Figma Guidelines for Newcomers",
     },
     {
-      title: "Project Journey 4",
-      subtitle: "Aligning with Design System",
+      title: "Project Journey 5",
+      subtitle: "Aligning with Broader Design System",
       description:
-        "There is still an ongoing team effort to make UX consistency across different products. I shared the team library with the broader Apps design framework team to share Sourcing use cases and our design rationales. In the meantime, I created Sourcing - Fiori Index that designers can see and compare the design, development status in both Sourcing native and Fiori components so designers can decide on what components to use. Here are the completed design patterns in Figma.",
-      diagram: "../../images/animations/patternlibrary_3.svg",
+        "I shared the team library with the broader Apps design framework team to share Sourcing use cases and our design rationales. There is still an ongoing team effort to make UX consistency across different products. I created Sourcing - Fiori Index that designers can see and compare the design, development status in both Sourcing native and Fiori components so designers can decide on what components to use.",
+      diagram: "../../images/animations/patternlibrary_8.png",
       arialabel: "The screenshot showing all Sourcing App Components",
     },
     {
