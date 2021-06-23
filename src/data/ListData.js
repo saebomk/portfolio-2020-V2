@@ -12,7 +12,7 @@ export const ListData = [
   },
   {
     title: "Strategic Sourcing Redesign",
-    subtitle: "UX / UI",
+    subtitle: "UX Design",
     link: "/FullProject/",
     thumbnail: "images/thumbnails/FullProject_0.svg",
     duration: "3 months",
