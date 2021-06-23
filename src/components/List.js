@@ -9,8 +9,7 @@ export default function List(props) {
     <Link to={item.link}>
       <ListGroup image={item.image}>
         <ListTitleGroup>
-          <ListTitle>{item.title}</ListTitle>
-          <ListSubtitle>{item.subtitle}</ListSubtitle>
+          <ListTitle>{item.title}<ListSubtitle>{item.subtitle}</ListSubtitle></ListTitle>
         </ListTitleGroup>
         <ListLogoGroup>
           <ListLogo src={item.thumbnail} />
@@ -21,14 +20,13 @@ export default function List(props) {
 }
 
 const ListGroup = styled.div`
-  height: 160px;
+  height: 300px;
   padding: 0 20% 0 20%;
   display: block;
   position: relative;
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-
   display: grid;
-  grid-template-columns: 7fr 3fr;
+  grid-template-columns: 6fr 4fr;
   @media (max-width: 1440px) {
     grid-template-columns: 1fr;
     padding: 0;
@@ -36,12 +34,12 @@ const ListGroup = styled.div`
   }
 
   :hover {
-    background: #fafafa; // How can i link to token?
+    background: #E6F3FF; // How can i link to token?
   }
 `;
 
 const ListLogoGroup = styled.div`
-  height: 160px;
+  height: 300px;
   width: auto;
   margin: 0;
   padding: 0;
@@ -66,12 +64,18 @@ const ListTitleGroup = styled.div`
   margin: 40px;
   @media (max-width: 1440px) {
     grid-template-columns: 1fr;
-    margin: 32px;
+    height: 100%;
   }
 `;
 
 const ListTitle = styled(Subtitle)`
   margin: 0;
+  display:block;
+  height: 20px;
 `;
 
-const ListSubtitle = styled(DescriptionText)``;
+const ListSubtitle = styled(DescriptionText)`
+  margin: 0;
+  display:block;
+  height: 20px;
+`;

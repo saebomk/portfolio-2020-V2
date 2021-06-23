@@ -7,7 +7,7 @@ import { HeaderText } from "./styles/TextStyles";
 export default function Footer() {
   return (
     <FooterWrapper>
-      <Copyright>Designed by Saebom Kwon with React from scratch</Copyright>
+      <Copyright>by Saebom Kwon with React</Copyright>
       <FooterItemWrapper>
         {FooterItemData.map((item, index) => (
           <Button item={item} key={index} />
