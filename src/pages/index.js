@@ -11,10 +11,16 @@ export default function IndexPage() {
       <SEO title="Home" />
       <IndexHero>
         <IndexHeroTitleGroup>
-          <IndexHeroTitle>Saebom April Kwon</IndexHeroTitle>
+        <IndexHeroTitle>Hi! I'm Saebom</IndexHeroTitle>
           <IndexHeroDescription>
-            Hello, I am a UX designer passionate in creating simple, usable, and
-            inclusive user interfaces.
+            A UX designer invested in creating innovative products helping users make better business decisions. Currently at <a href="https://www.mulesoft.com/">Salesforce MuleSoft</a>, 
+            previously at <a href="https://www.sap.com/">SAP</a>.
+          </IndexHeroDescription>
+          <IndexHeroDescription>
+            My background in Human Computer Interaction and Multimedia Design made me adept in rapid prototyping, passionate in research, and always curious for new technology.
+          </IndexHeroDescription>
+          <IndexHeroDescription>
+          Extroverted introvert, Living in SF enjoying <span role="img" aria-label="running">🏃‍♀️</span> <span role="img" aria-label="dancing">💃</span> <span role="img" aria-label="crossfit">🏋️‍♀️</span> and <span role="img" aria-label="coding">👩‍💻</span> <span role="img" aria-label="coffee">☕</span> <span role="img" aria-label="reading">📚</span> .
           </IndexHeroDescription>
         </IndexHeroTitleGroup>
       </IndexHero>
@@ -24,7 +30,9 @@ export default function IndexPage() {
 }
 
 const IndexHero = styled.div`
-  height: 720px;
+height: '100vh';
+min-height : '100vh';
+background-color: #F3FAFF;
   display: grid;
   padding: 200px 0;
   margin: 0 auto;
@@ -39,8 +47,10 @@ const IndexHeroTitleGroup = styled.div`
 `;
 
 const IndexHeroTitle = styled(PageTitle)`
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   padding: 4px 0;
+  font-size: 40px;
+  line-height: 3;
 
   @keyframes HeroAnimation {
     0% {
@@ -56,9 +66,9 @@ const IndexHeroTitle = styled(PageTitle)`
 
 const IndexHeroDescription = styled(DescriptionText)`
   padding: 8px 0;
-  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  font-size: 20px;
-  line-height: 1.3;
+  animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  font-size: 18px;
+  line-height: 1.5;
 
   @keyframes HeroAnimation {
     0% {

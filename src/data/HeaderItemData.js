@@ -8,6 +8,6 @@ export const HeaderItemData = [
   {
     link:
       "https://www.notion.so/saebomkwon/Saebom-April-Kwon-6a914788d7874486a2046793c4243539",
-    title: "Past Work",
+    title: "Fun",
   },
 ];
