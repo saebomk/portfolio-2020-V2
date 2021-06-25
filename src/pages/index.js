@@ -31,11 +31,14 @@ export default function IndexPage() {
 
 const IndexHero = styled.div`
 height: '100vh';
-min-height : '100vh';
+max-height : '100vh';
 background-color: #F3FAFF;
   display: grid;
   padding: 200px 0;
   margin: 0 auto;
+  @media (max-width: 480px) {
+    padding: 120px 0 80px 0;
+  }
 `;
 
 const IndexHeroTitleGroup = styled.div`
@@ -48,9 +51,9 @@ const IndexHeroTitleGroup = styled.div`
 
 const IndexHeroTitle = styled(PageTitle)`
   animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  padding: 4px 0;
-  font-size: 40px;
-  line-height: 3;
+  padding: 32px 0;
+  font-size: 36px;
+  line-height: 1.2;
 
   @keyframes HeroAnimation {
     0% {
