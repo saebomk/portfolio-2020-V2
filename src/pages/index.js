@@ -52,7 +52,7 @@ const IndexHeroTitleGroup = styled.div`
 const IndexHeroTitle = styled(PageTitle)`
   animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   padding: 32px 0;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 1.2;
 
   @keyframes HeroAnimation {
@@ -70,7 +70,7 @@ const IndexHeroTitle = styled(PageTitle)`
 const IndexHeroDescription = styled(DescriptionText)`
   padding: 8px 0;
   animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
 
   @keyframes HeroAnimation {
