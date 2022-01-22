@@ -69,8 +69,9 @@ const IndexHeroTitle = styled(PageTitle)`
 
 const IndexHeroDescription = styled(DescriptionText)`
   padding: 8px 0;
+  max-width : '320px';
   animation: HeroAnimation 3s 0s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
 
   @keyframes HeroAnimation {
